@@ -3,7 +3,7 @@
  * @Author: heweilun weilun@ssc-hn.com
  * @Date: 2022-12-09
  * @LastEditors: heweilun weilun@ssc-hn.com
- * @LastEditTime: 2022-12-15
+ * @LastEditTime: 2022-12-20
 -->
 <script setup lang="ts">
 import useURLLoader from '@/hooks/useURLLoader'
@@ -43,7 +43,7 @@ const testData: ColumnProps[] = [
 ]
 const currentUser: UserInfo  = {
   isLogin: true,
-  name: '',
+  name: 'viking',
   id: 1
 }
 interface CatResult {

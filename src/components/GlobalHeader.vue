@@ -3,10 +3,10 @@
  * @Author: heweilun weilun@ssc-hn.com
  * @Date: 2022-12-15
  * @LastEditors: heweilun weilun@ssc-hn.com
- * @LastEditTime: 2022-12-15
+ * @LastEditTime: 2022-12-20
 -->
 <template>
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-dark bg-primary mb-4 px-4">
         <a class="navbar-brand" href="#">Navbar</a>
         <ul class="list-inline mb-0" v-if="!user.isLogin">
             <li class="list-inline-item"><a href="#" class="btn btn-outline-light my-2">登陆</a></li>
@@ -19,7 +19,6 @@
 </template>
 
 <script lang="ts" setup>
-import { type } from 'os';
 import { defineProps } from 'vue'
 export type UserInfo = {
         isLogin: boolean
